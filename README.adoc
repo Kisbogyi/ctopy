@@ -1,0 +1,6 @@
+
+Compile c or c++ program to shared object with:
+[, bash]
+----
+gcc -fPIC -shared -o libfun.so library.c
+----
