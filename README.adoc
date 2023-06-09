@@ -3,5 +3,9 @@ Compile c or c++ program to shared object with:
 [, bash]
 ----
 gcc -fPIC -shared -o [shared_object].so [your_c_file].c
+----
+Example:
+[, fish]
+----
 gcc -fPIC -shared -o libfun.so library.c
 ----
